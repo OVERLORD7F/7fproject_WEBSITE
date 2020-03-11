@@ -1,0 +1,108 @@
+
+body {background-image: url(backpic.jpg)}
+
+.Header {
+  position:fixed;
+  left: 1200px;
+  top: 230px;
+  border-style: solid;
+  border-color: blue;
+  border-width: 2px;
+  margin: 10px;
+  padding: 15px;
+
+}
+
+/*Стиль границы таблицы*/
+table {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #BEAE00;
+	background-color: #b0e0e6;
+	padding: 2px
+} 	
+/*Стиль заголовка*/
+th  {
+	border-width: 2px;
+	border-style: solid;
+	border-color: green;
+	background-color: #ff7373
+} 	
+/*Стиль ячеек*/
+td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: #e4d5ef
+}
+
+	
+
+.Myborder {
+border-style: double;
+border-top-left-radius: 50px 100px;
+border-top-right-radius: 50px 100px;
+border-bottom-left-radius: 50px 100px;
+border-bottom-right-radius: 50px 100px;
+border-width: 7px;
+margin: 30px; /* внешние поля */
+padding: 50px; /* внутренние поля */
+border-color: #E0A040;
+background-color: #F0F5E6;
+text-align: center;
+font-size: x-large}
+
+.imgRight {
+float: right;
+margin: 20px;
+border-style: groove;
+border-width: 4px;
+border-color: #9E6D04
+}
+.imgLeft {
+float: left;
+margin: 20px;
+border-style: groove;
+border-width: 4px;
+border-color: #9E6D04
+}
+
+.FloatRight {
+float: right;
+/*
+обтекаемая
+область
+, 
+выровненная
+по
+левому
+краю
+*/
+  width: 165px;
+  background-color: #86a6ba;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+
+.tick1 {
+  position:absolute;
+  left: 250px;
+  top: 280px;
+}
+
+.tick2 {
+  position:absolute;
+  left: 450px;
+  top: 260px;
+}
+
+.tick3 {
+  position:absolute;
+  left: 350px;
+  top: 360px;
+}
